@@ -1,0 +1,92 @@
+select{
+    width: 70px;
+}
+.grid-container{
+    margin-left: 10%;
+    display: grid;
+    width: 40%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+}
+.block{
+    width: 200px;
+    border: 4px solid #666666;
+}
+.allInf{
+    margin-right: 10%;
+}
+.hide{
+    margin-top: 3%;
+    width: 100%;
+}
+
+.photo{
+    height: 160px;
+    border: 4px solid gray;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allLines{
+    min-height: 220px;
+    background-color: gray;
+}
+.firstLine{
+    transform: rotate(45deg);
+    height: calc(50% - 1px);
+    width: 2px;
+}
+.secondLine{
+    transform: rotate(-45deg);
+    height: calc(50% - 1px);
+    width: 2px;
+}
+
+.inf{
+    margin: 5%;
+}
+.txt{
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.mrg{
+    margin-top: 5%;
+}
+.jst-cnt{
+    display: flex;
+    justify-content: center;
+}
+.properties{
+    border: 1px solid gray;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.mrg-lft{
+    margin-left: 4%;
+}
+.mrg-btm{
+    margin-bottom: 20px;
+}
+.sp-btw{
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+.btn{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: 30px;
+    width: 50%;
+    background-color: #3434ee;
+    color: white;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,90 @@
+.allPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.firstBlock{
+    height: 150px;
+    width: 100px;
+    border: 2px solid #666666;
+
+}
+.somePhoto{
+    height: 80px;
+    border: 2px solid gray;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 1px;
+    height: 110px;
+    background-color: gray;
+}
+.line1{
+    transform: rotate(45deg);
+}
+.line2{
+    transform: rotate(-45deg);
+}
+
+.someInf{
+    /*display: block;*/
+    margin: 5px;
+}
+.text-st{
+    margin: auto;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.blocksOfTypes{
+    margin: 2px;
+    min-width: 30%;
+    max-width: 60%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: #f33535;
+}
+.blue{
+    background-color: #8a8aff;
+}
+.darkBlue{
+    background-color: rgba(0, 0, 225, 0.64);
+}
+.green{
+    background-color: #4ece4e;
+}
+.purple{
+    background-color: rgba(70, 2, 70, 0.62);
+}
+.brown{
+    background-color: rgba(93, 40, 40, 0.79);
+}
+.yellow{
+    background-color: yellow;
+}
+.normal{
+    background-color: silver;
+}
+.ground{
+    background-color: #594141;
+}
+.fairy{
+    background-color: deeppink;
+}
+.otherColor{
+    background-color: aqua;
+}
+
+.contentOfTypes{
+    display: flex;
+    align-items: center;
+}
